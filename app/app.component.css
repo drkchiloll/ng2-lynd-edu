@@ -1,7 +1,8 @@
-div#main {
-  margin-left: 25px;
+.header-bar {
+  background-color: black;
+  color: white;
 }
 
-h1 {
-  color: red;
+.spacer {
+  height: 40px;
 }
