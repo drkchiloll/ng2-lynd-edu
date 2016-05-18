@@ -1,0 +1,11 @@
+.warning {
+  color: red;
+}
+
+.ng-valid[required] {
+  border: 2px solid green;
+}
+
+.my-ng-invalid[require] {
+  border: 2px solid red;
+}
