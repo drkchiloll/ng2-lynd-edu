@@ -5,6 +5,7 @@ import { TubeComponent } from './tube.component';
 import { HomeComponent } from './home.component';
 import { LoginComponent } from './login.component';
 import { StyleDirective } from './style.directive';
+import { StudentCenterComponent } from './student-center/student.component';
 
 @Component({
   selector: 'app',
@@ -25,6 +26,9 @@ import { StyleDirective } from './style.directive';
 }, {
   path: '/login',
   component: LoginComponent
+}, {
+  path: '/student-center',
+  component: StudentCenterComponent
 }])
 
 export class AppComponent {
