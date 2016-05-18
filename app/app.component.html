@@ -1,10 +1,16 @@
 <section class='u-full-width'>
   <div class='row'>
     <div class='twelve columns header-bar'>
-      <h1 class='u-full-width'>Angular 2 App</h1>
+      <div class='three columns'>
+        <h1 class='u-full-width'>Angular 2 App</h1>
+      </div>
+      <div class='one column'>
+        <a class='button button-primary' [routerLink]="['/login']">Login</a>
+      </div>
     </div>
     <div class='spacer'></div>
   </div>
 </section>
 
 <my-tube></my-tube>
+<router-outlet></router-outlet>
